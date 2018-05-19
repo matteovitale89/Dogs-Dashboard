@@ -1,0 +1,24 @@
+//Colors
+$lightgrey: #f4f4f4;
+
+//Breakpoints
+$phone: 640px;
+
+//Animations
+@keyframes loading {
+    0% {
+        transform: rorate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

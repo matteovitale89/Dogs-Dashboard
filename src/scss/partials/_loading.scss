@@ -1,0 +1,16 @@
+.loading {
+    $size: 50px;
+    position: absolute;
+    top: calc(50% - #{$size} / 2);
+    left: calc(50% - #{$size} / 2);
+    display: block;
+    width: $size;
+    height: $size;
+    border: solid 2px lightgray;
+    border-bottom-color: purple;
+    border-radius: 50%;
+    animation: loading infinite linear .6s;
+    text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}

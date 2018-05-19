@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    color: black;
+    background-color: $lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 0 1rem;
+
+    @media screen and (max-width: 640px) {
+        padding: 0;
+    }
+}
+
+h1 {
+    margin: 0 0 3rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px lightgrey;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: purple;
+
+    @media screen and (max-width: $phone) {
+
+    }
+}
