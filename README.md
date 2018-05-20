@@ -15,7 +15,7 @@ To install and start-up the env, simply do the following:
 
 It'll open a new tab in the browser on the port:3000.
 
-###API to get all the data
+### API to get all the data
 
 [https://dog.ceo/dog-api](https://dog.ceo/dog-api)
 
