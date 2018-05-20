@@ -1,0 +1,52 @@
+.select-label {
+    display: block;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    color: rgb(173, 173, 173);
+}
+
+.select-wrapper {
+    position: relative;
+    display: block;
+    margin-bottom: 2rem;
+    $triangle-size: 7px;
+    $triangle-position: 16px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: calc(50% - #{$triangle-position});
+        right: 10px;
+        display: block;
+        width: 0;
+        height: 0;
+        border: solid $triangle-size transparent;
+        border-bottom-color: purple;  
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: calc(50% - #{$triangle-position});
+        right: 10px;
+        display: block;
+        width: 0;
+        height: 0;
+        border: solid $triangle-size transparent;
+        border-top-color: purple;  
+    }
+}
+
+.select {
+    appearance: none;
+    display: block;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding: .7rem .5rem;
+    width: 100%;
+    border-color: purple;
+    background-color: white;
+    color: purple;
+    font-weight: 700;
+    border-radius: 0;
+}
